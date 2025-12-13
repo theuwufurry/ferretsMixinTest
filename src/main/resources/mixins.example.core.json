@@ -6,7 +6,13 @@
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_21",
   "server": [
+    "BeeMixin",
+    "BundleMutableMixin",
+    "HorseMixin",
     "MixinCraftServer",
     "MixinSimpleCommandMap"
+  ],
+  "mixins": [
+    "BundleMutableMixin$BundleContentsAccessor"
   ]
 }
