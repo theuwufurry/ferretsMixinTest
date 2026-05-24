@@ -6,17 +6,17 @@
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_21",
   "server": [
-    "BundleMutableMixin",
+
     "MixinCraftServer",
     "MixinSimpleCommandMap",
     "entitys.BeeMixin",
     "entitys.EnderManMixin",
     "entitys.HorseMixin",
     "entitys.ShulkerMixin",
-    "entitys.ZombieMixin"
+    "entitys.ZombieMixin",
+    "NoKnockaboutDamage"
   ],
   "mixins": [
-    "BundleMutableMixin$BundleContentsAccessor",
-    "BundleMutableMixin$BundleContentsInvoker"
+
   ]
 }
